@@ -11,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #9265a8;
+  background: linear-gradient(to bottom right, #3daeda, #e53395);
   padding: 30px;
 }
 .container{
@@ -55,7 +55,7 @@ body{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #9265a8;
+  background: linear-gradient(to right, #316b8a, #e53395);
   opacity: 0.5;
   z-index: 12;
 }
@@ -119,7 +119,7 @@ body{
   bottom: 0;
   height: 3px;
   width: 25px;
-  background: #9265a8;
+  background: #191970;
 }
 .forms .signup-form  .title:before{
   width: 20px;
@@ -148,11 +148,11 @@ body{
 }
 .form-content .input-box input:focus,
 .form-content .input-box input:valid{
-  border-color: #9265a8;
+  border-color: #191970;
 }
 .form-content .input-box i{
   position: absolute;
-  color: #9265a8;
+  color: #191970;
   font-size: 17px;
 }
 .forms .form-content .text{
@@ -172,17 +172,17 @@ body{
 }
 .forms .form-content .button input{
   color: #fff;
-  background: #9265a8;
+  background: #191970;
   border-radius: 6px;
   padding: 0;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 .forms .form-content .button input:hover{
-  background:#593869 ;
+  background:#0a0a36 ;
 }
 .forms .form-content label{
-  color: #9265a8;
+  color: #191970;
   cursor: pointer;
 }
 .forms .form-content label:hover{
@@ -212,5 +212,3 @@ body{
   }
   .container #flip:checked ~ .forms .login-form{
     display: none;
-  }
-}

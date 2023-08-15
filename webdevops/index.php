@@ -4,32 +4,17 @@
   <head>
     <meta charset="UTF-8">
     
-    <link rel="stylesheet" href="css/style-index.css">
+   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      <?php include "css/style-index.css" ?>
+    </style>
    </head>
 <body>
   <div class="container">
-	
-    <input type="checkbox" id="flip">
-    <div class="cover">
-      <div class="front">
-        <img src="images/frontImg.jpg" alt="">
-        <div class="text">
-          <span class="text-1">BMS College of<br> Engineering</span>
-          <span class="text-2">ESTD. 1946</span>
-        </div>
-      </div>
-      <div class="back">
-        <img class="backImg" src="images/backImg.jpg" alt="">
-        <div class="text">
-          <span class="text-1">Complete miles of journey <br> with one step</span>
-          <span class="text-2">Let's get started</span>
-        </div>
-      </div>
-    </div>
-        <?php
+	<?php
         if (isset($_POST["login"])) {
            $email = $_POST["email"];
            $employeeID = $_POST["employeeID"];
@@ -55,6 +40,24 @@
             }
         }
     ?>
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="images/frontImg.jpg" alt="">
+        <div class="text">
+          <span class="text-1">BMS College of<br> Engineering</span>
+          <span class="text-2">ESTD. 1946</span>
+        </div>
+      </div>
+      <div class="back">
+        <img class="backImg" src="images/backImg.jpg" alt="">
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+        
     <div class="forms">
         <div class="form-content">
           <div class="login-form">
