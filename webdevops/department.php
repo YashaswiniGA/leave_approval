@@ -36,7 +36,7 @@ body {
 .header {
   padding: 10px;
   text-align: center;
-  background: #9265a8;
+  background: linear-gradient(to bottom right, #3daeda, #e53395);
   color: white;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #593869;
+  background-color: #191970;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -77,7 +77,7 @@ body {
 }
 
 .main a:hover {
-  background-color: #ddd;
+  background-color: #af63c2;
   color: black;
 }
 /* Active/current link */
@@ -107,7 +107,7 @@ body {
 .main {   
   -ms-flex: 90%; /* IE10 */
   flex: 90%;
-  background-color: #d5c1e3;
+  background-color:  #af63c2;
   padding: 80px;
 }
 
@@ -122,7 +122,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
- background-color: #593869;
+ background-color: #191970;
  color: white;	
 }
 

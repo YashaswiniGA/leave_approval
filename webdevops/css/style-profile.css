@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-   --purple:#9265a8;
-   --dark-purple:#593869;
+   --purple:#191970;
+   --dark-purple:#0a0a36;
    --black:#333;
    --white:#fff;
-   --light-bg:#9265a8;
+   --light-bg: linear-gradient(to bottom right, #3daeda, #e53395);
    --box-shadow:#fff;
 }
 
@@ -71,7 +71,7 @@
 
 .form-container{
    min-height: 100vh;
-   background-color: var(--light-bg);
+   background: linear-gradient(to bottom right, #3daeda, #e53395);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -101,7 +101,7 @@
    font-size: 18px;
    color:var(--black);
    margin:10px 0;
-   background-color: var(--light-bg);
+   background: linear-gradient(to bottom right, #3daeda, #e53395);
 }
 
 .form-container form p{
@@ -120,7 +120,7 @@
 
 .container{
    min-height: 100vh;
-   background-color: var(--light-bg);
+   background: linear-gradient(to bottom right, #3daeda, #e53395);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -166,7 +166,7 @@
 
 .update-profile{
    min-height: 100vh;
-   background-color: var(--light-bg);
+   background: linear-gradient(to bottom right, #3daeda, #e53395);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -222,7 +222,7 @@
 }
 .update-profile form .flex .inputBox .box:focus,
 .update-profile form .flex .inputBox .box:valid{
- border-color: #9265a8;
+ border-color: #191970;
 }
 @media (max-width:650px){
    .update-profile form .flex{
